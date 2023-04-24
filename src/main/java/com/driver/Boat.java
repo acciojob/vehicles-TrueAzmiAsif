@@ -14,6 +14,8 @@ public class Boat implements WaterVehicle{
     }
 
     public Boat() {
+        name="";
+        capacity=0;
     }
 
     public Boat(String name, int capacity) {
